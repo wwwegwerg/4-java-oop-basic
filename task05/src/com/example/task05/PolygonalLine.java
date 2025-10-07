@@ -35,7 +35,7 @@ public class PolygonalLine {
      * @param y координата по оси ординат
      */
     public void addPoint(double x, double y) {
-        addPoint(new Point(x, y));
+        line.add(new Point(x, y));
     }
 
     /**
